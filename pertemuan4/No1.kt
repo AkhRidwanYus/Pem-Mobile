@@ -13,12 +13,11 @@ fun hitung(x1: Int, y1: Int, x2: Int, y2: Int){
     else {
         bb = y2 - y1;
     }
-    println("$aa + $bb")
     var hasil = Math.sqrt((aa*aa).toDouble() + (bb*bb).toDouble());
     println("jarak antara dua titik = " + hasil);
 }
 
-fun main() {
+fun main(args: Array<String>) {
     //t1(2,3), t2(8,7)
 	hitung(2, 3, 8, 7);  
     
